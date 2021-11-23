@@ -3,6 +3,10 @@ package com.josemar666.workshopmongo.domain;
 import java.io.Serializable;
 import java.util.Objects;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+
+@Document(collection = "user")
 public class User  implements Serializable{
 	
 	
